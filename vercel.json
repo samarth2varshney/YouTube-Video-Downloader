@@ -1,0 +1,15 @@
+{
+    
+    "builds": [{
+        "src": "youtube_downloader/wsgi.py",
+        "use": "@vercel/python",
+        "config": {"maxLambda":"15mb","runtime":"python3.9"}
+    }],
+    "routes":[
+        {
+            "src": "/(.*)",
+            "dest":"youtube_downloader/wsgi.py"
+        }
+    ]
+    
+}
