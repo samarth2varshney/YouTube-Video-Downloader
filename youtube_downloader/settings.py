@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3j*77xlhvv#amhv2m55v-!rg+a+r&ob^y8#ve31zg8o26)n6bw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['youtube-video-downloader-eta.vercel.app']
 
 # Application definition
 
