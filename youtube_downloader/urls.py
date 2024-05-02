@@ -20,5 +20,5 @@ from downloader import views
   
 urlpatterns = [ 
     path('admin/', admin.site.urls), 
-    path('youtube', views.youtube, name='youtube'), 
+    path('', views.youtube, name='youtube'), 
 ]
